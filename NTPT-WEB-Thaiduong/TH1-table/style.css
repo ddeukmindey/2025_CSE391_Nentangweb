@@ -3,9 +3,6 @@ table {
     border-collapse: collapse;
     text-align: center;
     margin: auto;
-    background-image: url(https://th.bing.com/th?id=OIF.2rqKT0PNanj1SS%2fm0yWpmw&w=263&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
-    background-repeat: no-repeat ;
-    background-size: 100% 120%;
 }
 th, td {
     border: 2px solid black;
@@ -13,5 +10,5 @@ th, td {
 }
 h1 {
     text-align: center;
-    color:rgb(105, 182, 173);
+    color:black;
 }

@@ -1,24 +1,58 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
 }
+
 .container {
-    width: 50%;
-    margin: auto;
+    max-width: 600px;
     border: 1px solid #ccc;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
 }
-label {
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+legend {
     font-weight: bold;
 }
-input, select, textarea {
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="datetime-local"], select, textarea {
     width: 100%;
-    margin-bottom: 10px;
     padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
 }
-.radio-group input {
-    width: auto;
+
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.submit-btns {
-    text-align: right;
+
+button[type="button"] {
+    background-color: #dc3545;
+}
+
+button:hover {
+    opacity: 0.9;
 }
