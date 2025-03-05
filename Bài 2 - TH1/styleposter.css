@@ -1,0 +1,34 @@
+h1{
+  color: darkred;
+  font-family:sans-serif
+}
+.container {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: flex-end;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 0;
+}
+.course-card {
+  font-family: sans-serif ;
+  width: 30%;
+  background: none;
+  padding: 15px;
+  border-radius: 0px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}  
+.course-info{
+  padding-top: 10px;
+}
+.course-heading {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+i{
+  color: darkred;
+}
